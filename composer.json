@@ -1,0 +1,16 @@
+{
+    "name": "qandidate/hangman",
+    "license": "MIT",
+    "type": "project",
+    "description": "Developer assesment test",
+    "autoload": {
+        "psr-4": {
+            "Apps\\": "src/Apps",
+            "Framework\\": "libs/framework/Framework"
+        }
+    },
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/http-foundation": "2.5.*"
+    }
+}
